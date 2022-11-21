@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1608048412516
+Build-Jdk: 1.8.0_172
+Built-By: ppurple
+Bundle-ActivationPolicy: lazy
+Bundle-ManifestVersion: 2
+Bundle-Name: cloud.integration.script.apis
+Bundle-SymbolicName: com.sap.cloud.integration.script.apis
+Bundle-Vendor: SAP
+Bundle-Version: 2.7.1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.sap.gateway.ip.core.customdev.util;uses:="javax.ac
+ tivation,org.apache.camel,org.apache.camel.impl";version="2.7.1"
+Import-Package: javax.activation,org.apache.camel;version="[2.16,3)",o
+ rg.apache.camel.impl;version="[2.16,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849
